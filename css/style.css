@@ -51,7 +51,7 @@ input {
 }
 
 main {
-  border: solid 4px red;
+  
   background-color: white;
   padding: 32px 72px;
   display: flex;
@@ -73,17 +73,18 @@ nav button {
   height: 270px;
   background-color: gray;
   border-radius: 8px;
-  margin: 20px;
+  margin: 0 20px;
 }
 
 .card-footer {
   font-size: 14px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .card-footer * {
-  margin-top: 8px;
+  margin: 8px 20px 20px;
 }
 
 #subnav {
@@ -134,7 +135,7 @@ nav button {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 #headers {
@@ -145,8 +146,7 @@ nav button {
 }
 
 .card {
-  border: solid 4px blue;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
 }
